@@ -11,8 +11,8 @@ Reddit-Code is a VS Code extension that brings the power of Reddit directly into
 
 ## How to use
 
-![Type Show Top SubReddit](https://ibb.co/k1SNcQ2)
-![Choose from Dropdown or Enter your own subreddit](https://ibb.co/92V8Y0B)
+![Type Show Top SubReddit](https://github.com/pixelcaliber/Reddit-Code/blob/master/reddit-code-1.png)
+![Choose from Dropdown or Enter your own subreddit](https://github.com/pixelcaliber/Reddit-Code/blob/master/reddit-code-2.png)
 1. Open the Command Palette by pressing `Ctrl+Shift+P` for windows or `Command+Shift+P` for macOS.
 2. Type `Show Top SubReddit` and select the command.
 3. Enter the name of the subreddit you want to fetch posts from (e.g., `programming`, `javascript`) or choose from the options provided.
