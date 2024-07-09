@@ -1,4 +1,4 @@
-# Reddit-Code README
+# Reddit-Code
 
 Reddit-Code is a VS Code extension that brings the power of Reddit directly into your development environment. Stay up-to-date with your favorite programming and technology subreddits without leaving your code editor.
 
