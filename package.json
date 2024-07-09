@@ -1,0 +1,58 @@
+{
+    "name": "reddit-code",
+    "displayName": "Reddit-Code",
+    "description": "Stay up-to-date with your favorite subreddits without leaving VS Code. Browse top articles from Reddit directly in your development environment.",
+    "version": "0.0.4",
+    "icon": "images/reddit-code.png",
+    "engines": {
+        "vscode": "^1.91.0"
+    },
+    "categories": [
+        "Other"
+    ],
+    "publisher": "pixelcaliber",
+    "activationEvents": [
+        "onView:Subreddit"
+    ],
+    "main": "./out/extension.js",
+    "contributes": {
+        "views": {
+            "explorer": [
+                {
+                    "id": "Subreddit",
+                    "name": "Subreddit"
+                }
+            ]
+        },
+        "commands": [
+            {
+                "command": "reddit-code.showSubreddit",
+                "title": "Show Top Subreddit"
+            }
+        ]
+    },
+    "scripts": {
+        "vscode:prepublish": "npm run compile",
+        "compile": "tsc -p ./",
+        "watch": "tsc -watch -p ./",
+        "pretest": "npm run compile && npm run lint",
+        "lint": "eslint src --ext ts",
+        "test": "vscode-test"
+    },
+    "devDependencies": {
+        "@types/mocha": "^10.0.7",
+        "@types/node": "20.x",
+        "@types/vscode": "^1.91.0",
+        "@typescript-eslint/eslint-plugin": "^7.14.1",
+        "@typescript-eslint/parser": "^7.11.0",
+        "@vscode/test-cli": "^0.0.9",
+        "@vscode/test-electron": "^2.4.0",
+        "eslint": "^8.57.0",
+        "typescript": "^5.4.5"
+    },
+    "dependencies": {
+        "axios": "^1.7.2",
+        "node-html-parser": "^6.1.13"
+    },
+    "license": "MIT"
+}
