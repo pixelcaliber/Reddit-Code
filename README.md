@@ -11,13 +11,14 @@ Reddit-Code is a VS Code extension that brings the power of Reddit directly into
 
 ## How to use
 
-![Type Show Top SubReddit](https://github.com/pixelcaliber/Reddit-Code/blob/master/reddit-code-1.png)
-![Choose from Dropdown or Enter your own subreddit](https://github.com/pixelcaliber/Reddit-Code/blob/master/reddit-code-2.png)
+<img width="793" alt="Screenshot 2024-07-11 at 12 21 42 AM" src="https://github.com/pixelcaliber/Reddit-Code/assets/79640544/e9b91154-9554-4447-8262-c1e52e38786b">
+<img width="756" alt="Screenshot 2024-07-11 at 12 22 29 AM" src="https://github.com/pixelcaliber/Reddit-Code/assets/79640544/600e5b57-d935-46a3-85fb-6c1900a06673">
+
 1. Open the Command Palette by pressing `Ctrl+Shift+P` for windows or `Command+Shift+P` for macOS.
 2. Type `Show Top SubReddit` and select the command.
 3. Enter the name of the subreddit you want to fetch posts from (e.g., `programming`, `javascript`) or choose from the options provided.
 
-<img width="1114" alt="Screenshot 2024-07-09 at 12 37 59 PM" src="https://github.com/pixelcaliber/Reddit-Code/assets/79640544/b855124d-8101-4b79-961e-603a00bcff5e">
+<img width="600" height="350" alt="Screenshot 2024-07-09 at 12 37 59 PM" src="https://github.com/pixelcaliber/Reddit-Code/assets/79640544/b855124d-8101-4b79-961e-603a00bcff5e">
 
 ## Requirements
 
@@ -57,6 +58,9 @@ Initial release of Reddit-Code
 
 - Update logo
 
+### 1.0.5 - 1.0.6
+
+- Update ReadMe
 
 ---
 
