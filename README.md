@@ -18,7 +18,7 @@ Reddit-Code is a VS Code extension that brings the power of Reddit directly into
 2. Type `Show Top SubReddit` and select the command.
 3. Enter the name of the subreddit you want to fetch posts from (e.g., `programming`, `javascript`) or choose from the options provided.
 
-<img width="600" height="350" alt="Screenshot 2024-07-09 at 12 37 59 PM" src="https://github.com/pixelcaliber/Reddit-Code/assets/79640544/b855124d-8101-4b79-961e-603a00bcff5e">
+<img width="600" height="450" alt="Screenshot 2024-07-09 at 12 37 59 PM" src="https://github.com/pixelcaliber/Reddit-Code/assets/79640544/b855124d-8101-4b79-961e-603a00bcff5e">
 
 ## Requirements
 
